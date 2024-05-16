@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+  int a=9;
+  int b=10;
+  
+  if(a>b)
+  {
+  printf("%d",1);
+  printf("The statement is TRUE");
+  
+  }
+  else if(b>a)
+  {
+    printf("%d",2);
+    printf("b is bigger than a");
+  }
+  
+  else
+  {
+    printf("%d",0);
+    printf("The statement is False");
+  }
+
+}
