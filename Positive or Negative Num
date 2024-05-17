@@ -2,31 +2,24 @@
 int main()
 {
   //INPUT
-    int year;
-    printf("Enter a year:");
-    scanf("%d",&year);
-    
-    //leap year
-    if(year%100==0)
-{
-  if(year%400==0)
+  int num;
+  printf("Enter a num:");
+  scanf("%d",&num);
+  // Positive or Negative
+  if(num>0)
   {
-    printf("The year is leap year");
+      
+      printf("The number is positive");
   }
-else
-{
-  printf("The year is not a leap year");
-}
-
-}
-else
-{
-  if(year%4 ==0)
+  else if(num==0)
   {
-    printf("year is leap year");
+      printf("The number is neither positive nor negative");
   }
+  else
+  {
+      printf("The number is negative");
+  }
+  
 }
-
-}
-
     
+
