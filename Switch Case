@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main()
+{
+  //INPUT
+int num1,num2;
+char op;
+
+printf("Enter num1:");
+scanf("%d",&num1);
+
+printf("Enter num2:");
+scanf("%d",&num2);
+
+printf("Enter a operator:");
+scanf(" \n %c",&op);
+
+switch (op)
+{
+    case '+':
+    printf("Sum=%d",num1+num2);
+    break;
+    
+    case '-':
+    printf("Sub=%d",num1-num2);
+    break;
+    
+    case '*':
+    printf("Pro=%d",num1*num2);
+    break;
+    
+    case '/':
+    printf("Quo=%d",num1/num2);
+    break;
+    
+    default:
+    printf("The number is invalid");\
+}
+
+return(0);
+
+}
+    
